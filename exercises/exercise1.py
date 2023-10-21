@@ -20,4 +20,4 @@ def is_palindrome(word):
     # Check if the word is the same forwards and backwards.
     return word == word[::-1]
 
-# print(is_palindrome("oso"))
+print(is_palindrome("ana"))
