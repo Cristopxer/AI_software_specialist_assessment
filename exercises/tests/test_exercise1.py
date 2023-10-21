@@ -12,3 +12,4 @@ def test_is_not_palindrome() -> None:
 def test_is_palindrome_int() -> None:
     assert is_palindrome(123) == 'You must pass a string'
 
+
