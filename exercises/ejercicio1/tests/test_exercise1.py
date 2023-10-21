@@ -1,4 +1,4 @@
-from exercises.exercise1 import is_palindrome
+from ejercicio1.exercise1 import is_palindrome
 
 # test if a word is a palindrome
 def test_is_palindrome() -> None:

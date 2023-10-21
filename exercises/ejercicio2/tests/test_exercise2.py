@@ -1,4 +1,5 @@
-from exercises.exercise2 import grand_prix_world_champion
+from ejercicio2.exercise2 import grand_prix_world_champion
+
 import pytest
 import os
 

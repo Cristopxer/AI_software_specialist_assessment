@@ -78,5 +78,8 @@ def grand_prix_world_champion(input_file, output_file):
 
     print(f"Calculations finished successfully see {output_file} file for results")
 
+def main():
+    grand_prix_world_champion("exercise2_input.txt", "exercise2_output.txt")
 
-grand_prix_world_champion("exercise2_input.txt", "exercise2_output.txt")
+if __name__ == "__main__":
+    main()

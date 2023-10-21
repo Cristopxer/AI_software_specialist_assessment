@@ -45,4 +45,9 @@ def minimum_jumps(input_file, output_file):
     print("Jumps successfully calculated")
 
 
-minimum_jumps("exercise3_input.txt", "exercise3_output.txt")
+
+def main():
+    minimum_jumps("exercise3_input.txt", "exercise3_output.txt")
+
+if __name__ == '__main__':
+    main()
