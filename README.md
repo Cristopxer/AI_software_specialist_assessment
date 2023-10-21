@@ -36,7 +36,7 @@
 ```Python
   minimum_jumps("YOUR INPUT FILE HERE.txt", "YOUR OUTPUT FILE HERE.txt")
   ```
-* run exercise 4 - You can upload exercise4.ipynb to google colab and the run all the cells. **You can download the results by executing cell [21] or check output.csv file**
+* run exercise 4 - You check out exercise4.ipynb by click on [this link](https://colab.research.google.com/drive/1oyJzKTOAwCeXmwTVWI1n1xh8ZyZWheRp) to google colab. **You can download the results by executing cell [21] or check output.csv file**
 ## Unit testing
 once you got pytest and pytest-cov intalled to run the unit tests for each exercise run
   ```Shell
