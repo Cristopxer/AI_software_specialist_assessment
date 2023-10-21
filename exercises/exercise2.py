@@ -1,12 +1,26 @@
 def grand_prix_world_champion(input_file, output_file):
+    """Calculates the winner of the Grand Prix, using n score systems 
+
+    Args:
+      input_file: A string containing the path to the input file
+      output_file: A string containing the path to the output file
+
+    Returns:
+      An output file with the results of the Grand Prix series and a banner confirming the end of the calculations.
+    """
+
     f = open(input_file, 'r')
     line_num = 1
     line = f.readline()
+
+    # Iterate through all the lines in the input file
     while line:
         [prixes, pilots] = [int(x)
                             for x in line.strip().split(" ")]
+
         if prixes == 0 and pilots == 0:
             break
+
         if not ((prixes > 0 and prixes <= 100) and (pilots > 0 and pilots <= 100)):
             raise Exception(
                 f'In input file: line {line_num} - The number of Grand Prixes(G) and Pilots(P) must be between 1 and 100')
@@ -56,6 +70,7 @@ def grand_prix_world_champion(input_file, output_file):
 
             aux += 1
 
+            # Write the winners in the output file
             f_output = open(output_file, "a")
             f_output.write(winner + "\n")
             f_output.close()

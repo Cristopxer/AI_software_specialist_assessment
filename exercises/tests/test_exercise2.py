@@ -48,9 +48,8 @@ def test_number_of_score_system_description_exception():
         assert "The number of last finishing order must be between 1 and" in str(
             e)
 
-# Test if output file matches with correct answer in exercise2_correct_output.txt
 
-
+# Test if output file matches with correct answer in exercise2__output_test.txt
 def test_correct_answer():
     file_path = os.path.join(os.getcwd(), 'tests',
                              'file_inputs', 'exercise2_output_test.txt')
